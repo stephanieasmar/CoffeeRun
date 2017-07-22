@@ -1,17 +1,17 @@
 var URL = "http://dc-coffeerun.herokuapp.com/api/coffeeorders";
-var data = {};
+// var data = {};
 var dict = {
-    "coffee": "caramel swirl",
-    "emailAddress": "steph@gmail.com"
+    "coffee": "unicorn",
+    "emailAddress": "steph@yahoo.com"
 };
 
 
-$.get(URL, function(data) {
-    console.log(data);
+$.get(URL, function(theseDontMatterToMyCode) {
+    console.log(theseDontMatterToMyCode);
 });
 
 
-$.post(URL, dict, function(data) {
-    console.log(data);
+$.post(URL, dict, function(theseDontMatterToMyCode) {
+    console.log(theseDontMatterToMyCode);
 });
 
